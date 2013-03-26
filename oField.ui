@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>372</width>
-    <height>202</height>
+    <height>237</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -97,7 +97,7 @@
         <item>
          <widget class="QPushButton" name="b_restart">
           <property name="text">
-           <string>рестарт</string>
+           <string>Рестарт</string>
           </property>
          </widget>
         </item>
@@ -125,7 +125,7 @@
       </item>
      </layout>
     </item>
-    <item row="1" column="0">
+    <item row="9" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -135,7 +135,7 @@
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string>Бег по периферии (D)</string>
           </property>
           <property name="default">
            <bool>false</bool>
@@ -148,34 +148,45 @@
         <item>
          <widget class="QPushButton" name="b_pose_2">
           <property name="text">
-           <string>PushButton</string>
+           <string>Бег в центре (F)</string>
           </property>
          </widget>
         </item>
        </layout>
       </item>
       <item>
-       <widget class="QPushButton" name="b_pose_3">
-        <property name="text">
-         <string>PushButton</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="b_pose_4">
-        <property name="text">
-         <string>PushButton</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="b_pose_5">
-        <property name="text">
-         <string>PushButton</string>
-        </property>
-       </widget>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QPushButton" name="b_pose_3">
+          <property name="text">
+           <string>Умывание (J)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="b_pose_4">
+          <property name="text">
+           <string>Стойка (K)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="b_pose_5">
+          <property name="text">
+           <string>Замирание (L)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
      </layout>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="text">
+       <string>описание мыши</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -185,7 +196,7 @@
      <x>0</x>
      <y>0</y>
      <width>372</width>
-     <height>19</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
@@ -199,7 +210,6 @@
      <string>Справка</string>
     </property>
     <addaction name="action_2"/>
-    <addaction name="action_3"/>
    </widget>
    <addaction name="menu"/>
    <addaction name="menu_2"/>
